@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [HubSpot Test Automation Suite]" parallel="methods">
+  <test thread-count="3" name="HubSpot Automation Tests(failed)" parallel="methods">
+    <classes>
+      <class name="com.qa.hubspot.tests.ContactsPageTest">
+        <methods>
+          <include name="deleteContactsTest"/>
+          <include name="tearDown"/>
+          <include name="clickOnContactsMenuUnderContactsLinkTest"/>
+          <include name="verifyContactsPageHeaderTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.tests.ContactsPageTest -->
+      <class name="com.qa.hubspot.tests.HomePageTest">
+        <methods>
+          <include name="getHomepageTitleTest"/>
+          <include name="verifyLoggedAccountNameTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.tests.HomePageTest -->
+    </classes>
+  </test> <!-- HubSpot Automation Tests(failed) -->
+</suite> <!-- Failed suite [HubSpot Test Automation Suite] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HubSpotPOM by packages]">
+  <test thread-count="5" name="com.qa.hubspot.tests(failed)">
+    <classes>
+      <class name="com.qa.hubspot.tests.LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="checkIfLoginIsSuccessfulTest"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.tests.LoginTest -->
+    </classes>
+  </test> <!-- com.qa.hubspot.tests(failed) -->
+</suite> <!-- Failed suite [HubSpotPOM by packages] -->

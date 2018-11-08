@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HubSpot Test Automation Suite" duration-ms="146222" started-at="2018-11-07T21:44:09Z" finished-at="2018-11-07T21:46:36Z">
+    <groups>
+    </groups>
+    <test name="HubSpot Automation Tests" duration-ms="146222" started-at="2018-11-07T21:44:09Z" finished-at="2018-11-07T21:46:36Z">
+      <class name="com.qa.hubspot.tests.ContactsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@66a3ffec]" name="setUp" is-config="true" duration-ms="9907" started-at="2018-11-07T21:44:09Z" finished-at="2018-11-07T21:44:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewContactTest()[pri:1, instance:com.qa.hubspot.tests.ContactsPageTest@66a3ffec]" name="createNewContactTest" duration-ms="8325" started-at="2018-11-07T21:44:19Z" finished-at="2018-11-07T21:44:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContactTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@66a3ffec]" name="tearDown" is-config="true" duration-ms="4090" started-at="2018-11-07T21:44:28Z" finished-at="2018-11-07T21:44:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@66a3ffec]" name="setUp" is-config="true" duration-ms="9590" started-at="2018-11-07T21:44:46Z" finished-at="2018-11-07T21:44:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickOnContactsMenuUnderContactsLinkTest()[pri:2, instance:com.qa.hubspot.tests.ContactsPageTest@66a3ffec]" name="clickOnContactsMenuUnderContactsLinkTest" duration-ms="1910" started-at="2018-11-07T21:44:56Z" finished-at="2018-11-07T21:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnContactsMenuUnderContactsLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@66a3ffec]" name="tearDown" is-config="true" duration-ms="3607" started-at="2018-11-07T21:44:58Z" finished-at="2018-11-07T21:45:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@66a3ffec]" name="setUp" is-config="true" duration-ms="9334" started-at="2018-11-07T21:45:16Z" finished-at="2018-11-07T21:45:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyContactsPageHeaderTest()[pri:3, instance:com.qa.hubspot.tests.ContactsPageTest@66a3ffec]" name="verifyContactsPageHeaderTest" duration-ms="3105" started-at="2018-11-07T21:45:25Z" finished-at="2018-11-07T21:45:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsPageHeaderTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@66a3ffec]" name="tearDown" is-config="true" duration-ms="3792" started-at="2018-11-07T21:45:28Z" finished-at="2018-11-07T21:45:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@66a3ffec]" name="setUp" is-config="true" duration-ms="9398" started-at="2018-11-07T21:45:47Z" finished-at="2018-11-07T21:45:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteContactsTest()[pri:4, instance:com.qa.hubspot.tests.ContactsPageTest@66a3ffec]" name="deleteContactsTest" duration-ms="4352" started-at="2018-11-07T21:45:56Z" finished-at="2018-11-07T21:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteContactsTest -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@66a3ffec]" name="tearDown" is-config="true" duration-ms="2059" started-at="2018-11-07T21:46:01Z" finished-at="2018-11-07T21:46:03Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Element <span class="account-name ">...</span> is not clickable at point (1349, 31). Other element would receive the click: <div class="private-modal-dialog--overlay private-overlay uiOverlay-backdrop UIOverlay__Div-kWBOQt iDuHzH" open="" data-component-name="UIModalDialog" data-open-complete="true" tabindex="-1">...</div>
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Amits-2018-MBP.T-mobile.com', ip: '192.168.29.126', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/jx/pjdfg_mj7cg...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51632}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 574ee28feec5f1b8a870a233706d8c70]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <span class="account-name ">...</span> is not clickable at point (1349, 31). Other element would receive the click: <div class="private-modal-dialog--overlay private-overlay uiOverlay-backdrop UIOverlay__Div-kWBOQt iDuHzH" open="" data-component-name="UIModalDialog" data-open-complete="true" tabindex="-1">...</div>
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Amits-2018-MBP.T-mobile.com', ip: '192.168.29.126', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/jx/pjdfg_mj7cg...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51632}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 574ee28feec5f1b8a870a233706d8c70
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at com.qa.hubspot.tests.ContactsPageTest.tearDown(ContactsPageTest.java:75)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hubspot.tests.ContactsPageTest -->
+      <class name="com.qa.hubspot.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@77caeb3e]" name="setUp" is-config="true" duration-ms="5380" started-at="2018-11-07T21:44:32Z" finished-at="2018-11-07T21:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getHomePageHeader()[pri:1, instance:com.qa.hubspot.tests.HomePageTest@77caeb3e]" name="getHomePageHeader" duration-ms="559" started-at="2018-11-07T21:44:37Z" finished-at="2018-11-07T21:44:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHomePageHeader -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="3419" started-at="2018-11-07T21:44:38Z" finished-at="2018-11-07T21:44:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@77caeb3e]" name="setUp" is-config="true" duration-ms="5442" started-at="2018-11-07T21:45:01Z" finished-at="2018-11-07T21:45:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getHomepageTitleTest()[pri:2, instance:com.qa.hubspot.tests.HomePageTest@77caeb3e]" name="getHomepageTitleTest" duration-ms="361" started-at="2018-11-07T21:45:07Z" finished-at="2018-11-07T21:45:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHomepageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="3539" started-at="2018-11-07T21:45:07Z" finished-at="2018-11-07T21:45:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@77caeb3e]" name="setUp" is-config="true" duration-ms="5385" started-at="2018-11-07T21:45:32Z" finished-at="2018-11-07T21:45:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoggedAccountNameTest()[pri:3, instance:com.qa.hubspot.tests.HomePageTest@77caeb3e]" name="verifyLoggedAccountNameTest" duration-ms="748" started-at="2018-11-07T21:45:37Z" finished-at="2018-11-07T21:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggedAccountNameTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.HomePageTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="3615" started-at="2018-11-07T21:45:38Z" finished-at="2018-11-07T21:45:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hubspot.tests.HomePageTest -->
+      <class name="com.qa.hubspot.tests.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginTest@1e88b3c]" name="setUp" is-config="true" duration-ms="2968" started-at="2018-11-07T21:44:41Z" finished-at="2018-11-07T21:44:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.hubspot.tests.LoginTest@1e88b3c]" name="verifyLoginPageTitleTest" duration-ms="5" started-at="2018-11-07T21:44:44Z" finished-at="2018-11-07T21:44:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="2094" started-at="2018-11-07T21:44:44Z" finished-at="2018-11-07T21:44:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginTest@1e88b3c]" name="setUp" is-config="true" duration-ms="2902" started-at="2018-11-07T21:45:11Z" finished-at="2018-11-07T21:45:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyForgotPasswordLinkTest()[pri:2, instance:com.qa.hubspot.tests.LoginTest@1e88b3c]" name="verifyForgotPasswordLinkTest" duration-ms="33" started-at="2018-11-07T21:45:14Z" finished-at="2018-11-07T21:45:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPasswordLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="2098" started-at="2018-11-07T21:45:14Z" finished-at="2018-11-07T21:45:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginTest@1e88b3c]" name="setUp" is-config="true" duration-ms="2795" started-at="2018-11-07T21:45:42Z" finished-at="2018-11-07T21:45:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.hubspot.tests.LoginTest@1e88b3c]" name="loginTest" duration-ms="500" started-at="2018-11-07T21:45:44Z" finished-at="2018-11-07T21:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="2086" started-at="2018-11-07T21:45:45Z" finished-at="2018-11-07T21:45:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginTest@1e88b3c]" name="setUp" is-config="true" duration-ms="2805" started-at="2018-11-07T21:46:03Z" finished-at="2018-11-07T21:46:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkIfLoginIsSuccessfulTest()[pri:4, instance:com.qa.hubspot.tests.LoginTest@1e88b3c]" name="checkIfLoginIsSuccessfulTest" duration-ms="2980" started-at="2018-11-07T21:46:06Z" finished-at="2018-11-07T21:46:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfLoginIsSuccessfulTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="2099" started-at="2018-11-07T21:46:09Z" finished-at="2018-11-07T21:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginTest@1e88b3c]" name="setUp" is-config="true" duration-ms="2850" started-at="2018-11-07T21:46:11Z" finished-at="2018-11-07T21:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyRememberLinkTest()[pri:5, instance:com.qa.hubspot.tests.LoginTest@1e88b3c]" name="verifyRememberLinkTest" duration-ms="30" started-at="2018-11-07T21:46:14Z" finished-at="2018-11-07T21:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRememberLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="2087" started-at="2018-11-07T21:46:14Z" finished-at="2018-11-07T21:46:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginTest@1e88b3c]" name="setUp" is-config="true" duration-ms="2827" started-at="2018-11-07T21:46:16Z" finished-at="2018-11-07T21:46:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyGoogleSignInLinkTest()[pri:6, instance:com.qa.hubspot.tests.LoginTest@1e88b3c]" name="verifyGoogleSignInLinkTest" duration-ms="25" started-at="2018-11-07T21:46:19Z" finished-at="2018-11-07T21:46:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGoogleSignInLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="2087" started-at="2018-11-07T21:46:19Z" finished-at="2018-11-07T21:46:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginTest@1e88b3c]" name="setUp" is-config="true" duration-ms="2824" started-at="2018-11-07T21:46:21Z" finished-at="2018-11-07T21:46:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginWithSSOLinkTest()[pri:7, instance:com.qa.hubspot.tests.LoginTest@1e88b3c]" name="verifyLoginWithSSOLinkTest" duration-ms="29" started-at="2018-11-07T21:46:23Z" finished-at="2018-11-07T21:46:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithSSOLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="2087" started-at="2018-11-07T21:46:24Z" finished-at="2018-11-07T21:46:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginTest@1e88b3c]" name="setUp" is-config="true" duration-ms="2952" started-at="2018-11-07T21:46:26Z" finished-at="2018-11-07T21:46:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyfooterAllRightsTextTest()[pri:8, instance:com.qa.hubspot.tests.LoginTest@1e88b3c]" name="verifyfooterAllRightsTextTest" duration-ms="31" started-at="2018-11-07T21:46:29Z" finished-at="2018-11-07T21:46:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyfooterAllRightsTextTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="2095" started-at="2018-11-07T21:46:29Z" finished-at="2018-11-07T21:46:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginTest@1e88b3c]" name="setUp" is-config="true" duration-ms="2845" started-at="2018-11-07T21:46:31Z" finished-at="2018-11-07T21:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyfooterPrivacyPolicyLinkTest()[pri:9, instance:com.qa.hubspot.tests.LoginTest@1e88b3c]" name="verifyfooterPrivacyPolicyLinkTest" duration-ms="25" started-at="2018-11-07T21:46:34Z" finished-at="2018-11-07T21:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyfooterPrivacyPolicyLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="2102" started-at="2018-11-07T21:46:34Z" finished-at="2018-11-07T21:46:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hubspot.tests.LoginTest -->
+    </test> <!-- HubSpot Automation Tests -->
+  </suite> <!-- HubSpot Test Automation Suite -->
+</testng-results>

@@ -1,0 +1,14 @@
+
+<suite name="HubSpot Test Automation Suite" parallel="methods" thread-count="1">
+
+	<test name="HubSpot Automation Tests">
+
+		<classes>
+			<class name="com.qa.hubspot.tests.ContactsPageTest" />
+			<class name="com.qa.hubspot.tests.HomePageTest" />
+			<class name="com.qa.hubspot.tests.LoginTest" />
+		</classes>
+
+	</test>
+
+</suite>
